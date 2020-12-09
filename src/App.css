@@ -1,0 +1,322 @@
+/* Navbar */
+
+.navbar {
+    background-color: #dfc49f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand {
+    color: #621012;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+.navbar-brand:hover {
+    color: #621012;
+}
+
+.navbar .form-control {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #383838;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.navbar .form-control::placeholder {
+    color: #383838;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-item {
+    margin-right: 5px;
+}
+
+.nav-link {
+    color: #383838;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #621012;
+}
+
+/* Button */
+
+.btn-primary {
+    background-color: #621012;
+    border: 2px solid #621012;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: #621012;
+    border: 2px solid #621012;
+}
+
+.btn-outline-primary {
+    border: 2px solid #621012;
+    color: #621012;
+}
+
+.btn-outline-primary:hover {
+    border: 2px solid #621012;
+    background-color: #621012;
+}
+
+.btn-sm {
+    font-size: 12px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    height: 100vh;
+    background-color: white;
+}
+
+.jumbotron h1 {
+    font-size: 35px;
+    line-height: 45px;
+    color: #383838;
+}
+
+.jumbotron .lead {
+    color: #621012;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Section heading */
+
+.section-heading {
+    color: #621012;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+/* Adaptive learning */
+
+.section-2 {
+    min-height: 100vh;
+    background-color: #621012;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.section-2 h1,
+.section-2 .lead {
+    color: white;
+}
+
+.img-bg {
+    background-image: url("./code.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Popular course */
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.section-3 .card-header {
+    background-color: transparent;
+    background-image: url("./learning.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.card-body a {
+    color: #621012;
+    font-size: 13px;
+}
+
+.card-footer {
+    background-color: #621012;
+}
+
+a .card-footer {
+    color: white;
+    font-size: 13px;
+}
+
+a:hover .card-footer {
+    color: white;
+}
+
+.section-3 {
+    padding: 4rem 0;
+}
+
+.tag {
+    padding: 10px 15px;
+    background-color: #621012;
+}
+
+.tag p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 14px;
+}
+
+/* Study calendar */
+
+.section-4 {
+    padding: 4rem 0;
+}
+
+.section-4 h1 {
+    color: #621012;
+}
+
+.section-4 .lead {
+    font-weight: 700;
+    color: #383838;
+    font-size: 20px;
+}
+
+/* Leaders testimonial */
+
+.section-5 {
+    padding: 4rem 0;
+}
+
+.section-5 .card {
+    border: 1px solid #621012;
+}
+
+.section-5 img {
+    border-radius: 50%;
+    border: 5px solid #621012;
+}
+
+.section-5 .row h4 {
+    color: #621012;
+}
+
+.name-credit {
+    color: #621012;
+    margin-bottom: 0;
+}
+
+/* Learning for everyone */
+
+.section-6 {
+    padding: 4rem 0;
+    background-color: #621012;
+}
+
+.section-6 .section-heading,
+.section-6 h2,
+.section-6 h4 {
+    color: #dfc49f;
+}
+
+.section-6 .card h4,
+.section-6 .card p {
+    color: #621012;
+}
+
+.section-6 h5 a {
+    color: #dfc49f;
+}
+
+.section-6 h5 a:hover {
+    color: white;
+}
+
+/* Register to get free trial */
+
+.section-7 {
+    padding: 4rem 0;
+}
+
+.section-7 h1 {
+    color: #621012;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #621012;
+    color: #dfc49f;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer a {
+    color: #dfc49f;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #dfc49f;
+}
+
+/* Login */
+
+.login,
+.login .row {
+    min-height: 100vh;
+    background-color: #ebebeb;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.login h3,
+.login p {
+    color: #621012;
+}
+
+.login .card {
+    border-radius: 10px;
+    border: none;
+}
+
+.forgotpass {
+    text-align: right;
+    font-weight: 600;
+}
+
+.forgotpass a {
+    color: #621012;
+}
+
+.forgotpass a:hover {
+    color: #621012;
+}
+
+/* Leader Board */
+
+.leaderboard {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #ebebeb;
+}
+
+.leaderboard .card {
+    border-radius: 10px;
+    border: none;
+}
+
+.leaderboard h1,
+.leaderboard p {
+    color: #621012;
+}
+
+.leaderboard img {
+    height: 50px;
+    border-radius: 50%;
+}
