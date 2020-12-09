@@ -95,7 +95,8 @@ function Register() {
                                     </div>
                                 </form>
                                 <button className="btn btn-primary btn-block">
-                                    SIGN UP <i class="fas fa-sign-in-alt"></i>
+                                    SIGN UP{" "}
+                                    <i className="fas fa-sign-in-alt"></i>
                                 </button>
                                 <p className="small mt-3 text-center">
                                     By signing up, you agree to inquel's
@@ -113,10 +114,10 @@ function Register() {
                                 </p>
                                 <div className="d-flex justify-content-center mb-2">
                                     <button className="btn-primary btn mr-3 btn-sm">
-                                        <i class="fab fa-google"></i>
+                                        <i className="fab fa-google"></i>
                                     </button>
                                     <button className="btn-primary btn btn-sm">
-                                        <i class="fab fa-facebook"></i>
+                                        <i className="fab fa-facebook"></i>
                                     </button>
                                 </div>
                                 <p className="text-center">

@@ -35,12 +35,12 @@ function Leaderboard() {
                                     data-toggle="modal"
                                     data-target="#exampleModal"
                                 >
-                                    Filter <i class="fas fa-filter"></i>
+                                    Filter <i className="fas fa-filter"></i>
                                 </button>
                             </div>
                         </div>
                         <p>Quiz Masters of Month - October 2020</p>
-                        <table class="table">
+                        <table className="table">
                             <thead>
                                 <tr>
                                     <th scope="col"></th>
@@ -99,28 +99,31 @@ function Leaderboard() {
                     </div>
                 </div>
                 <div
-                    class="modal fade"
+                    className="modal fade"
                     id="exampleModal"
                     tabindex="-1"
                     aria-labelledby="exampleModalLabel"
                     aria-hidden="true"
                 >
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">
+                    <div className="modal-dialog modal-dialog-centered">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5
+                                    className="modal-title"
+                                    id="exampleModalLabel"
+                                >
                                     Filter
                                 </h5>
                                 <button
                                     type="button"
-                                    class="close"
+                                    className="close"
                                     data-dismiss="modal"
                                     aria-label="Close"
                                 >
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body">
+                            <div className="modal-body">
                                 <p className="mb-1">Type</p>
                                 <div className="d-flex mb-2">
                                     <button className="btn btn-outline-secondary mr-2">
@@ -133,67 +136,67 @@ function Leaderboard() {
                                 <p className="mb-1">Grade / Rank</p>
                                 <div className="mb-2">
                                     <div
-                                        class="btn-group"
+                                        className="btn-group"
                                         role="group"
                                         aria-label="Basic example"
                                     >
                                         <button
                                             type="button"
-                                            class="btn btn-outline-secondary"
+                                            className="btn btn-outline-secondary"
                                         >
                                             1
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-secondary"
+                                            className="btn btn-outline-secondary"
                                         >
                                             2
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-secondary"
+                                            className="btn btn-outline-secondary"
                                         >
                                             3
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-secondary"
+                                            className="btn btn-outline-secondary"
                                         >
                                             4
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-secondary"
+                                            className="btn btn-outline-secondary"
                                         >
                                             5
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-secondary"
+                                            className="btn btn-outline-secondary"
                                         >
                                             6
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-secondary"
+                                            className="btn btn-outline-secondary"
                                         >
                                             7
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-secondary"
+                                            className="btn btn-outline-secondary"
                                         >
                                             8
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-secondary"
+                                            className="btn btn-outline-secondary"
                                         >
                                             9
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-secondary"
+                                            className="btn btn-outline-secondary"
                                         >
                                             10
                                         </button>
@@ -251,17 +254,17 @@ function Leaderboard() {
                                     </select>
                                 </div>
                             </div>
-                            <div class="modal-footer">
+                            <div className="modal-footer">
                                 <button
                                     type="button"
-                                    class="btn btn-outline-primary"
+                                    className="btn btn-outline-primary"
                                     data-dismiss="modal"
                                 >
                                     Clear All
                                 </button>
                                 <button
                                     type="button"
-                                    class="btn btn-outline-primary"
+                                    className="btn btn-outline-primary"
                                 >
                                     Apply Filter
                                 </button>

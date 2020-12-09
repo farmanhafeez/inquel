@@ -69,10 +69,10 @@ function Footer() {
                             <a href="/">Contact Us</a>
                         </p>
                         <div className="d-flex mt-4">
-                            <i class="fab fa-facebook-f mr-3"></i>
-                            <i class="fab fa-twitter mr-3"></i>
-                            <i class="fab fa-linkedin-in mr-3"></i>
-                            <i class="fab fa-instagram"></i>
+                            <i className="fab fa-facebook-f mr-3"></i>
+                            <i className="fab fa-twitter mr-3"></i>
+                            <i className="fab fa-linkedin-in mr-3"></i>
+                            <i className="fab fa-instagram"></i>
                         </div>
                     </div>
                     <div className="col-md-3">

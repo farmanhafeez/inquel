@@ -41,7 +41,7 @@ function Login() {
                                     <a href="/">Forgot Password</a>
                                 </p>
                                 <button className="btn btn-primary btn-block">
-                                    LOGIN <i class="fas fa-sign-in-alt"></i>
+                                    LOGIN <i className="fas fa-sign-in-alt"></i>
                                 </button>
                                 <p className="small mt-3 text-center">
                                     Don't have an account yet?{" "}
@@ -57,10 +57,10 @@ function Login() {
                                 </p>
                                 <div className="d-flex justify-content-center">
                                     <button className="btn-primary btn mr-3 btn-sm">
-                                        <i class="fab fa-google"></i>
+                                        <i className="fab fa-google"></i>
                                     </button>
                                     <button className="btn-primary btn btn-sm">
-                                        <i class="fab fa-facebook"></i>
+                                        <i className="fab fa-facebook"></i>
                                     </button>
                                 </div>
                             </div>
